@@ -167,18 +167,18 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 ## Additional references
 
 |                                                              |                                                                                                                           |
-| ------------------------------------------------------------ | :-----------------------------------------------------------------------------------------------------------------------: |
+| ------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------ |
 | **Description**                                              |                                                         **Links**                                                         |
-| Compare messaging services                                   | <https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services>                                            |
-| Introduction to Azure Event Grid                             | <https://docs.microsoft.com/en-us/azure/event-grid/overview>                                                              |
-| Azure Event Hubs Overview                                    | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about>                                                      |
-| Event Hubs for Kafka                                         | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-for-kafka-ecosystem-overview>                               |
-| Event Hubs Capture                                           | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview>                                           |
-| Azure Service Bus Overview                                   | <https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview>                             |
-| Azure Stream Analytics Overview                              | <https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction>                                   |
-| Introduction to Azure Functions                              | <https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview>                                               |
-| What is Logic Apps?                                          | <https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview>                                               |
-| Azure Cosmos DB + Azure Functions                            | <https://docs.microsoft.com/azure/cosmos-db/serverless-computing-database>                                                |
-| CloudEvents                                                  | <https://cloudevents.io/>                                                                                                 |
+| Compare messaging services                                   | https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services                                              |
+| Introduction to Azure Event Grid                             | https://docs.microsoft.com/en-us/azure/event-grid/overview                                                                |
+| Azure Event Hubs Overview                                    | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about                                                        |
+| Event Hubs for Kafka                                         | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-for-kafka-ecosystem-overview                                 |
+| Event Hubs Capture                                           | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview                                             |
+| Azure Service Bus Overview                                   | https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview                               |
+| Azure Stream Analytics Overview                              | https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction                                     |
+| Introduction to Azure Functions                              | https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview                                                 |
+| What is Logic Apps?                                          | https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview                                                 |
+| Azure Cosmos DB + Azure Functions                            | https://docs.microsoft.com/azure/cosmos-db/serverless-computing-database                                                  |
+| CloudEvents                                                  | https://cloudevents.io/                                                                                                   |
 
 
