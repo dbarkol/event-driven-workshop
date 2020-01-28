@@ -42,9 +42,9 @@ Some of the main needs for Contoso are:
 
 * **Provide support for batch processing where necessary**. While they are moving away from batch processing, there will still be a need to keep some operations around that run in batches.
 
-* **Scalable solution that can handle unexpected demand**. They would like to put a solution in place that has the ability to scale for them if necessary. They don't anticipate this happening often but do not want to worry about it, if it does. 
+* **Scalable solution that can handle unexpected demand**. They would like to put a solution in place that has the ability to scale for them if necessary. They don't anticipate this happening often but do not want to worry about it, if it does.
 
-* **Strong preference towards managed services and serverless technologies**. They are hoping that their new solution will take advantage of managed services as much as possible so that they can focus on their business code, logic and operations. 
+* **Strong preference towards managed services and serverless technologies**. They are hoping that their new solution will take advantage of managed services as much as possible so that they can focus on their business code, logic and operations.
 
 * **Support different types of producers and consumers**. Contoso has a large ecosystem of applications and tools through the organization. The new solution needs to have the ability to integrate well with the other solutions.
 
@@ -54,7 +54,7 @@ Some of the main needs for Contoso are:
 
 ### Customer use cases
 
-**Analytics**  
+**Analytics**
 
 Contoso would like to support near-real time analytics so that they could:
 
@@ -139,7 +139,7 @@ Prepare a 15-minute chalk-talk style presentation to the customer.
 
 ## Step 3: Present the solution
 
-*Outcome**
+**Outcome**
 
 Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
