@@ -2,7 +2,7 @@
 
 ## Abstract and learning objetives
 
-In this whiteboard design session, you will work with a group to design a solution for a customer that leverages aspects of event-driven architectures. In the end you will design a solution that meets their needs and will provide them with a unified pipeine for their website, business units and customers.
+In this whiteboard design session, you will work with a group to design a solution for a customer that leverages aspects of event-driven architectures. You will design a solution that meets their needs provides them with a unified pipeine for their website, business units and customers.
 
 At the end of this whiteboard design session, you will have gained insight on how best to take advantage of Azure messaging services for designing a highly scalable and cost-effective solution.
 
@@ -22,42 +22,35 @@ Directions: With all participants in the session, the facilitator/SME presents a
 
 ### Customer situation
 
-Contoso provides an eCommerce web site for their customers. It averages about 10 million clicks a day
+Contoso provides an eCommerce web site for their customers. It averages about 10 million clicks a day.
 
-They have a ‘recently viewed’ feature on the site that is critical to their business and revenue
+They have a ‘recently viewed’ feature on the site that is critical to their business and revenue. The ‘recently viewed’ functionality takes a long time to process and has many issues. It leverages cookies, has issues with private browsing and only updates twice a day.
 
-Most of their systems rely on batch processing
+Most of their systems rely on batch processing. They are concerned about the amount of time it takes to react to changes and apply updates to their business. Contoso is confident that most of their processing can be done in near-real time.
 
-They are concerned about the amount of time it takes to react to changes and apply updates to their business
+Today, a point-to-point architecture is heavily used throughout Contoso. As you can imagine this approach has become difficult to maintain over the years. While a point-to-point architecture might work for small solutions, Contoso needs a flexible, more elegant solution moving forward.
 
-Contoso is confident that most of their processing can be done in near-real time
-
-The ‘recently viewed’ functionality takes a long time to process and has many issues
-
-Today, a point-to-point architecture is heavily used throughout Contoso
-
-Directors want to explore the notion of an event-driven architecture and see if there are long-term performance and costs benefits
-
-They would like to add new features to the website (recommendations, trends, etc.)
+Directors want to explore the notion of an event-driven architecture and see if there are long-term performance and costs benefits. If they can pull this off, they would like to add new features to the website (recommendations, trends, etc.)
 
 ### Customer needs
 
-Unified pipeline platform
+Some of the main needs for Contoso are:
 
-Near-real time processing
+* Near real time processing
+  * Product change updates - changes that originate from one system can be reflected in others, in near real time. 
+  * Analytics - this includes being able to detect trends and anomalies from traffic on the website. 
 
-- Product changes (example: change data capture)
-- Analytics (anomaly detection, trends, etc.)
+* Provide support for batch processing where necessary. While they are moving away from batch processing, there will still be a need to keep some operations around that run in batches.
 
-Provide support for batch processing where necessary
+* Scalable solution that can handle unexpected demand. They would like to put a solution in place that has the ability to scale for them if necessary. They don't anticipate this happening often but do not want to worry about it, if it does. 
 
-Scalable solution that can handle unexpected demand
+* Strong preference towards managed services and serverless technologies. They are hoping that their new solution will take advantage of managed services as much as possible so that they can focus on their business code, logic and operations. 
 
-Strong preference towards managed services and serverless technologies
+* Support different types of producers and consumers. Contoso has a large ecosystem of applications and tools through the organization. The new solution needs to have the ability to integrate well with the other solutions.
 
-Support different types of producers and consumers
+* Embrace OSS tools and ecosystem. Integrating with open source tools and frameworks is very important to Contoso. 
 
-Embrace OSS tools and ecosystem
+* Unified pipeline platform. This all comes down to the integration of a common, unified pipeline that can be leveraged by their applications.
 
 ### Customer use cases
 
