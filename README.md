@@ -26,7 +26,7 @@ Contoso provides an eCommerce web site for their customers that averages approxi
 
 They have a ‘recently viewed’ feature on the site that is critical to their business and revenue. The ‘recently viewed’ functionality takes a long time to process and has many issues. It leverages cookies, has issues with private browsing and only updates twice a day.
 
-Most of their systems rely on batch processing; they have raised concerns regard the amount of time it takes to react to changes and apply updates to their business. Contoso is confident that most of their processing can be done in near-real time.
+Most of their systems rely on batch processing, raising concerns regarding the amount of time it takes to react to changes and apply updates to their business. Contoso is confident that most of their processing can be done in near-real time.
 
 Today, a point-to-point architecture is heavily used throughout Contoso. As you can imagine, this approach has become difficult to maintain over the years. While a point-to-point architecture might work for small solutions, Contoso needs a more elegant and flexible solution moving forward.
 
