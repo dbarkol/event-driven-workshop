@@ -36,46 +36,46 @@ Directors want to explore the notion of an event-driven architecture and see if 
 
 Some of the main needs for Contoso are:
 
-* Near real time processing
+* **Near real time processing**
   * Product change updates - changes that originate from one system can be reflected in others, in near real time. 
   * Analytics - this includes being able to detect trends and anomalies from traffic on the website. 
 
-* Provide support for batch processing where necessary. While they are moving away from batch processing, there will still be a need to keep some operations around that run in batches.
+* **Provide support for batch processing where necessary**. While they are moving away from batch processing, there will still be a need to keep some operations around that run in batches.
 
-* Scalable solution that can handle unexpected demand. They would like to put a solution in place that has the ability to scale for them if necessary. They don't anticipate this happening often but do not want to worry about it, if it does. 
+* **Scalable solution that can handle unexpected demand**. They would like to put a solution in place that has the ability to scale for them if necessary. They don't anticipate this happening often but do not want to worry about it, if it does. 
 
-* Strong preference towards managed services and serverless technologies. They are hoping that their new solution will take advantage of managed services as much as possible so that they can focus on their business code, logic and operations. 
+* **Strong preference towards managed services and serverless technologies**. They are hoping that their new solution will take advantage of managed services as much as possible so that they can focus on their business code, logic and operations. 
 
-* Support different types of producers and consumers. Contoso has a large ecosystem of applications and tools through the organization. The new solution needs to have the ability to integrate well with the other solutions.
+* **Support different types of producers and consumers**. Contoso has a large ecosystem of applications and tools through the organization. The new solution needs to have the ability to integrate well with the other solutions.
 
-* Embrace OSS tools and ecosystem. Integrating with open source tools and frameworks is very important to Contoso. 
+* **Embrace OSS tools and ecosystem**. Integrating with open source tools and frameworks is very important to Contoso. 
 
-* Unified pipeline platform. This all comes down to the integration of a common, unified pipeline that can be leveraged by their applications.
+* **Unified pipeline platform**. This all comes down to the integration of a common, unified pipeline that can be leveraged by their applications.
 
 ### Customer use cases
 
 **Analytics**  
+
 Contoso would like to support near-real time analytics so that they could:
 
 - Identify trends 
 - Catch anomalies
-- Enhance recommendations
+- Provide enhanced recommendations
 
 **Real time updates**
-Products updates
 
-- Currently stored in Cosmos DB
+Products updates. Changes to products and other artifacts in the Contoso ecosystem can orginate from multiple sources, including databases. It's important that these change are available to other systems. 
+
+- Product information is currently stored in Cosmos DB
 - Would like to reflect changes immediately on website (and elsewhere)
 
-Customer and product feedback
+Customer and product feedback. Contoso provides a set of APIs for their partners. Both customer and product feedback is shared from those APIs and will be imporant to many folks within the company.
 
 - Share updates from 3rd party sources
 
 **Partner notifications**
 
-Notify partners of product changes through some form of publish and subscribe (pub/sub) mechanism.
-
-Partners can provide an endpoint (example: WebHook) to receive relevant updates.
+Notify partners of product changes through some form of publish and subscribe (pub/sub) mechanism. Partners can provide an endpoint (example: WebHook) to receive relevant updates and subscribe to the updates that are relevant or important to them.
 
 ### Customer objections
 
@@ -111,13 +111,19 @@ _High-level architecture_
 
 1. Diagram your initial vision for handling the top-level requirements for the event-driven architecture.
 
+2. Based on the customer situation, what core services would you propose as part of the new event-driven architecture? 
+
 _Batch processing_
 
-TODO: add content
+1. Illustrate how batch processing could be supported in within the architecture. 
+
+2. Describe how batch processing can still leverage an event-driven approach.
 
 _Partner notifications_
 
-TODO: add content
+1. Describe how partners can be notified of important changes from Contoso. 
+
+2. Show the services that will be leveraged to enable partner notifications. 
 
 **Prepare**
 
