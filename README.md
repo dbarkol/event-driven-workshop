@@ -2,7 +2,7 @@
 
 ## Abstract and learning objetives
 
-In this whiteboard design session, you will work with a group to design a solution for a customer that leverages aspects of event-driven architectures. You will design a solution that meets their needs provides them with a unified pipeine for their website, business units and customers.
+In this whiteboard design session, you will work with a group to design a solution for a customer that leverages aspects of event-driven architectures. You will design a solution that meets their needs and provides them with a unified data pipeine for their website, business units and customers.
 
 At the end of this whiteboard design session, you will have gained insight on how best to take advantage of Azure messaging services for designing a highly scalable and cost-effective solution.
 
@@ -58,20 +58,20 @@ Some of the main needs for Contoso are:
 
 Contoso would like to support near-real time analytics so that they could:
 
-- Identify trends 
-- Catch anomalies
-- Provide enhanced recommendations
+* Identify trends
+* Catch anomalies
+* Provide enhanced recommendations
 
 **Real time updates**
 
-Products updates. Changes to products and other artifacts in the Contoso ecosystem can orginate from multiple sources, including databases. It's important that these change are available to other systems. 
+Products updates. Changes to products and other artifacts in the Contoso ecosystem can orginate from multiple sources, including databases. It's important that these change are available to other systems.
 
-- Product information is currently stored in Cosmos DB
-- Would like to reflect changes immediately on website (and elsewhere)
+* Product information is currently stored in Cosmos DB
+* Would like to reflect changes immediately on website (and elsewhere)
 
 Customer and product feedback. Contoso provides a set of APIs for their partners. Both customer and product feedback is shared from those APIs and will be imporant to many folks within the company.
 
-- Share updates from 3rd party sources
+* Share updates from 3rd party sources
 
 **Partner notifications**
 
@@ -79,13 +79,13 @@ Notify partners of product changes through some form of publish and subscribe (p
 
 ### Customer objections
 
-- Can we have a consistent format for all the events and messages?
+* Can we have a consistent format for all the events and messages?
 
-- What about business continuity (disaster recovery)?
+* What about business continuity (disaster recovery)?
 
-- Can we replicate the data to another region?
+* Can we replicate the data to another region?
 
-- We need a way to continue to support our batch jobs within this new architecture. Ideally, we’d like to incorporate it into an event-driven architecture. Is this possible?
+* We need a way to continue to support our batch jobs within this new architecture. Ideally, we’d like to incorporate it into an event-driven architecture. Is this possible?
 
 ## Step 2: Design a proof of concept solution
 
@@ -99,9 +99,9 @@ Business needs
 
 Directions: With all participants at your table, answer the following questions and list the answers on a flip chart:
 
--  Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
+* Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
 
-- What customer business needs do you need to address with your solution?
+* What customer business needs do you need to address with your solution?
 
 **Design**
 
@@ -111,7 +111,7 @@ _High-level architecture_
 
 1. Diagram your initial vision for handling the top-level requirements for the event-driven architecture.
 
-2. Based on the customer situation, what core services would you propose as part of the new event-driven architecture? 
+2. Based on the customer situation, what core services would you propose as part of the new event-driven architecture?
 
 _Batch processing_
 
@@ -165,19 +165,17 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 
 ## Additional references
 
-|                                                              |                                                                                                                           |
-| ------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------ |
-| **Description**                                              |                                                         **Links**                                                         |
-| Compare messaging services                                   | https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services                                              |
-| Introduction to Azure Event Grid                             | https://docs.microsoft.com/en-us/azure/event-grid/overview                                                                |
-| Azure Event Hubs Overview                                    | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about                                                        |
-| Event Hubs for Kafka                                         | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-for-kafka-ecosystem-overview                                 |
-| Event Hubs Capture                                           | https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview                                             |
-| Azure Service Bus Overview                                   | https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview                               |
-| Azure Stream Analytics Overview                              | https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction                                     |
-| Introduction to Azure Functions                              | https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview                                                 |
-| What is Logic Apps?                                          | https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview                                                 |
-| Azure Cosmos DB + Azure Functions                            | https://docs.microsoft.com/azure/cosmos-db/serverless-computing-database                                                  |
-| CloudEvents                                                  | https://cloudevents.io/                                                                                                   |
-
-
+|                                                              |                                                                                                                             |
+| ------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------- |
+| **Description**                                              |                                                         **Links**                                                           |
+| Compare messaging services                                   | <https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services>                                              |
+| Introduction to Azure Event Grid                             | <https://docs.microsoft.com/en-us/azure/event-grid/overview>                                                                |
+| Azure Event Hubs Overview                                    | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about>                                                        |
+| Event Hubs for Kafka                                         | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-for-kafka-ecosystem-overview>                                 |
+| Event Hubs Capture                                           | <https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview>                                             |
+| Azure Service Bus Overview                                   | <https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview>                               |
+| Azure Stream Analytics Overview                              | <https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction>                                     |
+| Introduction to Azure Functions                              | <https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview>                                                 |
+| What is Logic Apps?                                          | <https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview>                                                     |
+| Azure Cosmos DB + Azure Functions                            | <https://docs.microsoft.com/azure/cosmos-db/serverless-computing-database>                                                  |
+| CloudEvents                                                  | <https://cloudevents.io/>                                                                                                   |
