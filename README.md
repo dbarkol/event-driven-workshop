@@ -1,6 +1,6 @@
 # Design an Event-driven Architecture on Azure - Student guide
 
-## Abstract and learning objetives
+## Abstract and learning objectives
 
 In this whiteboard design session, you will work with a group to design a customer solution that leverages aspects of event-driven architectures. This solution should meet their needs and provide them with a unified data pipeine for their website, business units and customers.
 
